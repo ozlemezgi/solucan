@@ -1,0 +1,68 @@
+.body{
+  
+    background: rgb(193,122,153);
+   
+}
+
+.box{
+    width: 550px;
+    height: 180px;
+    padding: 20px;
+    background-color: rgb(215, 233, 233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px
+    
+}
+
+.box::before{
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 110%;
+    left: -5%;
+    top: -5%;
+    background-color: rgba(245, 217, 247, 0.3);
+    border-radius: 35px;
+
+
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#btn-yes{
+    position: absolute;
+    transition: .5s;
+    background-color: rgb(240, 156, 208);
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    color: rgb(40, 36, 36)
+}
+
+#btn-no{
+    position: absolute;
+    transition: .5s;
+    background-color:rgb(240, 156, 208);
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-left: 150px;
+    color: rgb(40, 36, 36);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a:active {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
